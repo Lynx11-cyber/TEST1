@@ -1,0 +1,58 @@
+[
+    {
+        "id": 9,
+        "image": "../IMAGES/earrings/item1.jpg",
+        "name": "HI",
+        "des": "HELLO",
+        "price": 200
+    },
+    {
+        "id": 10,
+        "image": "../IMAGES/earrings/item2.jpg",
+        "name": "HI",
+        "des": "HELLO",
+        "price": 200
+    },
+    {
+        "id": 11,
+        "image": "../IMAGES/earrings/item3.jpg",
+        "name": "HI",
+        "des": "HELLO",
+        "price": 200
+    },
+    {
+        "id": 12,
+        "image": "../IMAGES/earrings/item4.jpg",
+        "name": "HI",
+        "des": "HELLO",
+        "price": 200
+    },
+    {
+        "id": 13,
+        "image": "../IMAGES/earrings/item5.jpg",
+        "name": "HI",
+        "des": "HELLO",
+        "price": 200
+    },
+    {
+        "id": 14,
+        "image": "../IMAGES/earrings/item6.jpg",
+        "name": "HI",
+        "des": "HELLO",
+        "price": 200
+    },
+    {
+        "id": 15,
+        "image": "../IMAGES/earrings/item7.jpg",
+        "name": "HI",
+        "des": "HELLO",
+        "price": 200
+    },
+    {
+        "id": 16,
+        "image": "../IMAGES/earrings/item8.jpg",
+        "name": "HI",
+        "des": "HELLO",
+        "price": 200
+    }
+]

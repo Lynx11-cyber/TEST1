@@ -1,0 +1,59 @@
+[
+    {
+        "id": 1,
+        "image": "../IMAGES/earrings/item1.jpg",
+        "name": "Oceanic Elegance",
+        "des": "WOMEN EARRINGS",
+        "price": 200,
+        "cart":"1, 'Oceanic Elegance', '479,138','../IMAGES/earrings/item1.jpg'"
+    },  
+    {
+        "id": 2,
+        "image": "../IMAGES/earrings/item2.jpg",
+        "name": "HI",
+        "des": "HELLO",
+        "price": 200
+    },
+    {
+        "id": 3,
+        "image": "../IMAGES/earrings/item3.jpg",
+        "name": "HI",
+        "des": "HELLO",
+        "price": 200
+    },
+    {
+        "id": 4,
+        "image": "../IMAGES/earrings/item4.jpg",
+        "name": "HI",
+        "des": "HELLO",
+        "price": 200
+    },
+    {
+        "id": 5,
+        "image": "../IMAGES/earrings/item5.jpg",
+        "name": "HI",
+        "des": "HELLO",
+        "price": 200
+    },
+    {
+        "id": 6,
+        "image": "../IMAGES/earrings/item6.jpg",
+        "name": "HI",
+        "des": "HELLO",
+        "price": 200
+    },
+    {
+        "id": 7,
+        "image": "../IMAGES/earrings/item7.jpg",
+        "name": "HI",
+        "des": "HELLO",
+        "price": 200
+    },
+    {
+        "id": 8,
+        "image": "../IMAGES/earrings/item8.jpg",
+        "name": "HI",
+        "des": "HELLO",
+        "price": 200
+    }
+]

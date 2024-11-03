@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imperial Atelier</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/main.css">
+    <link rel="stylesheet" href="./CSS/home.css">
+    <script src="./JS/cart.js" defer></script> <!-- Load cart.js first -->
+    <script src="./JS/product.js" defer></script> <!-- Load product.js after cart.js -->
+    <script src="https://kit.fontawesome.com/636016cea2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--HEADER-->
+    <section class="header">
+        <nav>
+            <a href="index.html"><img class="logo" src="../IMAGES/logo.png" alt="Logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a class="active" href="index.html">HOME</a></li>
+                    <li><a href="../HTMLS/shop.html">SHOP</a></li>
+                    <li><a href="../HTMLS/aboutus.html">ABOUT</a></li>
+                    <li><a href="../HTMLS/contact.html">CONTACT</a></li>
+                    <li><a href="../HTMLS/cart.html">YOUR CART</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Imperial Atelier</h1>
+            <p>An opulent and premium quality jewelry brand for men and women</p>
+            <a href="" class="hero-btn">Visit Us To Know More</a>
+        </div>
+    </section>
+    
+    <!--Feature Section-->
+    <section class="course">
+        <div class="row">
+            <div class="course-col">
+                <img src="../IMAGES/shipping.png" alt="Free Shipping">
+                <h3>Free Shipping</h3>
+            </div>
+            <div class="course-col">
+                <img src="../IMAGES/time.png" alt="Online Order">
+                <h3>Online Order</h3>
+            </div>
+            <div class="course-col">
+                <img src="../IMAGES/money.png" alt="Save Money">
+                <h3>Save Money</h3>
+            </div>
+            <div class="course-col">
+                <img src="../IMAGES/support.png" alt="24/7 Support">  
+                <h3>24/7 Support</h3>
+            </div>
+        </div>
+    </section>
+    
+    <!--Products Section-->
+    <section id="product1" class="products">
+        <h2>Earrings</h2>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <div id="product-container" class="pro-container"></div>
+    </section>
+    
+    <!--Banner Section-->
+    <section class="banner">
+        <h4 class="banner-text">Lorem ipsum</h4>
+        <h2 class="banner-text">Lorem ipsum dolor sit amet. Eos debitis deserunt vel architecto</h2>
+        <a href=""><button class="hero-btn">Explore</button></a>
+    </section>
+    
+    <!--New Products Section-->
+    <section id="product1" class="products">
+        <h2>New Arrivals</h2>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <div id="necklace-container" class="pro-container"></div>
+    </section>
+    
+    <!--Call to Action-->
+    <section class="sm-banner">
+        <div class="banner-box">
+            <h4 class="h4-smbanner">Crazy</h4>
+            <h2 class="h2-smbanner">Buy 1 Get 1 Free</h2>
+            <span class="span-smbanner">Lorem ipsum dolor sit amet.</span>
+            <button class="hero-btn">Learn More</button>
+        </div>
+        <div class="banner-box">
+            <h4 class="h4-smbanner">Crazy</h4>
+            <h2 class="h2-smbanner">Buy 1 Get 1 Free</h2>
+            <span class="span-smbanner">Lorem ipsum dolor sit amet.</span>
+            <button class="hero-btn">Learn More</button>
+        </div>
+    </section>
+    
+    <!--Footer-->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet. Eos debitis deserunt vel architecto tempore et voluptatem alias <br>et voluptatem quibusdam ut voluptatem eligendi.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by Group 4</p>
+    </section>
+
+    <!--JavaScript for user-friendly navigation-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>

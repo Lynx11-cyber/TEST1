@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Your Cart</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/main.css">
+    <link rel="stylesheet" href="../CSS/cart.css">
+    <script src="../JS/cart.js"></script>
+    <script src="https://kit.fontawesome.com/786de4cf33.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--HEADER-->
+    <section class="sub-header">
+        <nav>
+            <a href="../index.html"><img class="logo" src="../IMAGES/logo.png" alt="Logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="../index.html">HOME</a></li>
+                    <li><a href="../HTMLS/shop.html">SHOP</a></li>
+                    <li><a href="../HTMLS/aboutus.html">ABOUT</a></li>
+                    <li><a href="../HTMLS/contact.html">CONTACT</a></li>
+                    <li><a class="active" href="../HTMLS/cart.html">YOUR CART</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Your Cart</h1>
+    </section>
+
+    <!--Cart-->
+    <section>
+        <div id="cart"></div>
+        <div id="total"></div>
+        <button id="checkoutButton">Checkout</button>
+    </section>
+
+    <!--Footer-->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet. Eos debitis deserunt vel architecto tempore et voluptatem alias <br>et voluptatem quibusdam ut voluptatem eligendi.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by Group 4</p>
+    </section>
+
+    <!--JavaScript for user-friendly navigation-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>

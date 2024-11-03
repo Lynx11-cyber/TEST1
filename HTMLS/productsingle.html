@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HELLLO</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../CSS/main.css">
+        <link rel="stylesheet" href="../CSS/singleproduct.css">
+        <script src="../JS/product.js"></script>
+        <script src="https://kit.fontawesome.com/786de4cf33.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!--HEADER-->
+        <section class="sub-header">
+            <nav>
+                <a href="../index.html"><img class="logo" src="../IMAGES/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="../index.html">HOME</a></li>
+                        <li><a class="active" href="../HTMLS/shop.html">SHOP</a></li>
+                        <li><a href="../HTMLS/aboutus.html">ABOUT</a></li>
+                        <li><a href="../HTMLS/contact.html">CONTACT</i></a></li>
+                        <li><a href="../HTMLS/cart.html">YOUR CART</i></a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+        </section>
+        <!---Product showcase-->
+        <section>
+            <div id="showcase" class="showcase-prodcut">
+
+            </div>
+        </section>
+        <!--Footer-->
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>Lorem ipsum dolor sit amet. Eos debitis deserunt vel architecto tempore et voluptatem alias <br>et voluptatem quibusdam ut voluptatem eligendi</p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+            <p>Made with <i class="fa fa-heart-o"></i> by Group 4</p>
+        </section>
+
+
+
+        <!--JAVA FOR USERFRIENDLY-->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>

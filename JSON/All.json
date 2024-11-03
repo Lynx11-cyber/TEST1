@@ -1,0 +1,25 @@
+[
+    {
+        "id": 1,
+        "item1": "../IMAGES/earrings/item1.jpg",
+        "item2": "../IMAGES/earrings/item2.jpg",
+        "item3": "../IMAGES/earrings/item3.jpg",
+        "item4": "../IMAGES/earrings/item4.jpg",
+        "type": "WOMEN EARRINGS",
+        "name":"Oceanic Elegance",
+        "price": "479,138",
+        "desc":"The Oceanic Elegance earrings embody serene sophistication. Featuring radiant blue gemstones, each piece is accentuated with a halo of sparkling diamonds. The harmonious blend of blue and clear gemstones creates a captivating effect, perfect for enhancing both formal and everyday looks. With their delicate sparkle and classic charm, the Oceanic Elegance earrings bring a touch of luxury and refinement, ideal for celebrating special moments or adding an understated glow to any occasion.",
+        "cart":"1, 'Oceanic Elegance', '479,138','../IMAGES/earrings/item1.jpg'"
+    },
+    {
+        "id": 2,
+        "item1": "../IMAGES/earrings/item1.jpg",
+        "item2": "../IMAGES/earrings/item2.jpg",
+        "item3": "../IMAGES/earrings/item3.jpg",
+        "item4": "../IMAGES/earrings/item4.jpg",
+        "type": "earrings",
+        "name":"HI",
+        "price": 300,
+        "desc":"BLA BLA BLA BLA"
+    }
+]
